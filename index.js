@@ -1,4 +1,4 @@
-import timeZone from 'time-zone';
+const timeZone = require('date-time');
 
 export default function dateTime(options = {}) {
 	let {
