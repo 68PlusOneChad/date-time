@@ -1,6 +1,6 @@
 const timeZone = require('date-time');
 
-export default function dateTime(options = {}) {
+module.exports = function dateTime(options = {}) {
 	let {
 		date = new Date(),
 		local = true,
